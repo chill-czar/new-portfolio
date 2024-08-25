@@ -1,0 +1,71 @@
+/**/
+body{
+    margin: 0;
+    background-color: #000;
+    
+}
+
+.nav ,.navLower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav{
+    
+    width: 80px;
+    height: 170px;
+    position: absolute ;
+    top: 30px;
+  
+    animation: NavIn ease-out 1.2s;
+
+}
+
+.nav img,.navLower img{
+    width: 19px;
+    object-fit: cover;
+      
+    opacity: 1;
+    
+}
+.nav img:hover{
+    opacity: 0.65;
+    transition: opacity ease-in 0.11s;
+}
+
+.navLower{
+    position: fixed;
+    bottom: 50px;
+    width: 80px;
+
+    animation: NavLowerIn ease-out 1.2s ;
+
+}
+
+
+
+
+/*Animation*/
+
+@keyframes NavIn {
+    from{
+        opacity: 0;
+        transform:translate(-50px,0px) ;
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+@keyframes NavLowerIn {
+    from{
+        opacity: 0;
+        transform:translate(0px,60px) ;
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
