@@ -57,13 +57,17 @@
     .heroChild ,.heroChild2{
         max-width: 380px;
     }
+    .heroChild2{
+        font-size: 60px;
+    }
 }
 @media screen and (max-width: 420px) {
     .heroChild ,.heroChild2{
         max-width: 260px;
+        padding-left: 0;
     }
     .heroChild2{
-        font-size: 80px;
+        font-size: 60px;
     }
 }
 
