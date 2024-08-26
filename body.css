@@ -1,8 +1,32 @@
+.bg-vid{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    
+    top: 0;
+    
+}
+
+.main{
+    position:absolute;
+    background-color: #00000057;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index: -1;
+    
+}
 
 .hero{
     color: #fff;
-    height: 800px;
+    /*height;800px;*/
     margin-top: 250px;
+
+    
+    
+    
 }
 
 .heroChild{
