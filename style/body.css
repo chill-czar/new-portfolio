@@ -1,6 +1,9 @@
 /* *{
     cursor: none;
 } */
+* {
+    user-select: none;
+  }
 
 .bg-vid{
     height: 100vh;
@@ -60,14 +63,23 @@
 .heroChild2 span{
     color: #000;
     text-shadow: 1px 1px 0px orange ;
-
+    animation: pulse 2.4s ease-in-out infinite;
 }
 
 .heroChild2 span:hover{
     color: orange;
-    text-shadow: 0px 0px 20px orange;
+    text-shadow: 0px 0px 100px orange;
     transition: ease-out .15s;
 }
+
+
+@keyframes pulse {
+    50%{
+        color:orange;
+    }
+}
+
+
 
 
 
