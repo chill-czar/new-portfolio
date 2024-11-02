@@ -1,6 +1,6 @@
-*{
+/* *{
     cursor: none;
-}
+} */
 
 .bg-vid{
     height: 100vh;
@@ -14,19 +14,20 @@
 }
 
 .main{
-    position:absolute;
+
     background-color: #000000de;
     height: 100vh;
     width: 100vw;
     top: 0;
     z-index: -1;
+    color: red;
     
 }
 
 .hero{
     color: #fff;
     /*height;800px;*/
-    margin-top: 250px;
+    padding-top: 250px;
     z-index: 2;
     
     
