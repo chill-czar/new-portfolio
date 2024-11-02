@@ -3,6 +3,7 @@
 } */
 * {
     user-select: none;
+
   }
 
 .bg-vid{
@@ -12,8 +13,7 @@
     z-index: -1;
     position: fixed;
     
-    top: 0;
-    
+    top: 0;    
 }
 
 .main{
@@ -23,8 +23,7 @@
     width: 100vw;
     top: 0;
     z-index: -1;
-    color: red;
-    
+
 }
 
 .hero{

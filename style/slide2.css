@@ -2,18 +2,70 @@
     height: 100vh;
     width: 100vw;
     background-color: #000000de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bento-box{
+    width: 1200px;
+    height: 800px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
 }
 .sliders{
-    width: 400px;
-    height: 600px;
     background-color: rgba(70, 70, 70, 0.88);
 
     z-index: 2;
 
     border-radius: 40px;
+}
+#right-main{
+    height: 760px;
+    width: 360px;
+   
+}
+#left-main{
+    background-color: rgba(0,0,0,0);
+    height: 760px;
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+#summary-box{
+    height: 360px;
+    width: 760px;
+}
+#profile-box{
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+}
+#block1{
+    height: 376px;
+    width: 360px;
+}
+#pfp{
+    height: 376px;
+    width: 376px;
+}
+.pfp-img{
+    width: 376px;
+    object-fit: cover;
+    border-radius: 40px;
+
+    filter: blur(8px) brightness(0.8);
+    transition: all 0.81s ease ;
+}
+.pfp-img:hover{
+    filter: blur(0) brightness(1);
+    scale: 1.051;
 }
