@@ -1,39 +1,43 @@
 .slide-2{
-    height: 100vh;
-    width: 100vw;
-    background-color: #000000de;
+    max-height: 100vh;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 40px;
 
+    display: none;
 }
 
 .bento-box{
-    width: 1200px;
-    height: 800px;
+    max-width: 1200px;
+    max-height: 800px;
+
 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
+
 }
 .sliders{
     background-color: rgba(70, 70, 70, 0.88);
 
     z-index: 2;
-
+    display: flex;
     border-radius: 40px;
 }
 #right-main{
-    height: 760px;
-    width: 360px;
+    min-height: 760px;
+    min-width: 360px;
     filter: blur(2px);
-
+    display: flex;
 }
 #left-main{
     background-color: rgba(0,0,0,0);
-    height: 760px;
-    width: 760px;
+    /* max-height: 760px;
+    max-width: 760px; */
+
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -42,6 +46,7 @@
 #summary-box{
     height: 360px;
     width: 760px;
+    display: flex;
 
 }
 #profile-box{
@@ -56,16 +61,16 @@
     width: 360px;
 }
 #pfp{
-    height: 376px;
-    width: 376px;
+    max-height: 376px;
+    max-width: 376px;
 }
 .pfp-img{
-    width: 376px;
+    max-width: 376px;
     object-fit: cover;
     border-radius: 40px;
 
     filter: blur(15px) brightness(0.8);
-    transition: all 5s ease-in ;
+    transition: all 4s ease-in ;
 }
 .pfp-img:hover{
     filter: blur(0) brightness(1);
@@ -76,7 +81,7 @@
 .summary{
     color: rgb(152, 162, 247);
     font-family: "Space Grotesk", sans-serif;
-    font-size: 26px;
+    font-size: clamp(16px,2rem,26px);
     font-weight: 700;
     margin: 20px;
 }

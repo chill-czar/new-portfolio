@@ -2,8 +2,13 @@
     cursor: none;
 } */
 * {
+    border: 1px solid white ;
     user-select: none;
 
+  }
+body {
+    margin: 0;
+    padding: 0;
   }
 
 .bg-vid{
@@ -12,16 +17,13 @@
     object-fit: cover;
     z-index: -1;
     position: fixed;
-    
-    top: 0;    
+    filter: brightness(0.2);
+    top: 0;
 }
 
 .main{
 
-    background-color: #000000de;
     height: 100vh;
-    width: 100vw;
-    top: 0;
     z-index: -1;
 
 }
@@ -46,7 +48,7 @@
 
     font-family: "Roboto", sans-serif;
     font-weight: 700;    
-    font-size: 30px;
+    font-size: clamp(23px,8vw,30px);
 }
 
 .heroChild2{
@@ -56,7 +58,7 @@
 
     font-family: "Roboto", sans-serif;
     font-weight: 700;    
-    font-size: 100px;
+    font-size: clamp(60px,8vw,100px);
 }
 
 .heroChild2 span{
@@ -100,7 +102,7 @@
 
 
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
     .heroChild ,.heroChild2{
         max-width: 720px;
     }
@@ -128,5 +130,5 @@
     .heroChild2{
         font-size: 60px;
     }
-}
+} */
 
