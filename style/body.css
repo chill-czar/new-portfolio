@@ -149,10 +149,10 @@ body {
         font-size: 60px;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
     .main{
 
-        height: 50vh;
+        height: auto;
         z-index: -1;
     
     }
