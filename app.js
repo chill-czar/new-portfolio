@@ -48,3 +48,8 @@ window.addEventListener("mouseup", () => {
 });
 
 
+function scrollToSection() {
+    document.getElementById("slide2").scrollIntoView({
+        behavior:"smooth"
+    });
+}
