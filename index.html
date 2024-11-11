@@ -32,7 +32,7 @@
 <body>
 
     <video autoplay loop muted class="bg-vid" src="vids/videoplayback.mp4"></video>
-    <div id="top"></div>
+    <div class="top1" id="top1"></div>
     <div class="nav" id="nav1">
         <div class="navItem"><a href="mailto:shivamvashist2003@gmail.com"><img src="Icons /white email.png"></a></div>
         <div class="navItem"><a href="https://www.linkedin.com/in/shivamvashist/"><img src="Icons /white linked 2.png"></a></div>
@@ -55,12 +55,12 @@
     
         </div>
         <div class="arrowDown">
-            <button style="all: unset;" onClick="scrollToSection()"><img style="width:80px ;object-fit: contain;" src="Icons /arrow/arrow animated.gif"></button>
+            <button style="all: unset;" onClick="scrollToSection(slide2)"><img style="width:80px ;object-fit: contain;" src="Icons /arrow/arrow animated.gif"></button>
         </div>
     </div>
     
     <div class="navLower">
-        <div class="navItem"><a href="#top"><img src="Icons /white home.png"></a></div>
+        <div class="navItem"> <button style="all: unset;" onClick="scrollToSection(top1)"><img src="Icons /white home.png"></button> </div>
     </div>
 
     <div class="slide-2" id="slide2">
@@ -77,12 +77,22 @@
                     <div class="sliders" id="pfp"><img src="assets/shivam.jpeg" class="pfp-img"></div>
                 </div>
             </div>
-            <div class="sliders" id="right-main"></div>
+
+            <div class="sliders" id="right-main">
+                <div class="skillSlider">
+                    <div class="skillImg">
+                        <img src="https://skillicons.dev/icons?i=js" />
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
     <div class="slide-3" id="slide3">
-
+        
     </div>
 
 
