@@ -50,36 +50,8 @@
     }
 }
 
-#right-main{
-    height: 95%;
-    width: 30%;
-    display: flex;
-    transition: all 0.22s ease ;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
 
-}
-
-.skillSlider{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-
-    width: 88%;
-    height: 10%;
-    border-radius: 10px;
-    background-color: bisque;
-
-    font-family: "Space Grotesk", sans-serif;
-    font-size: clamp(10px, 2vw , 30px);
-    font-weight: 600;
-}
 
 #right-main:hover{
     scale: 1.02;
