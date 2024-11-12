@@ -31,7 +31,9 @@
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
     transition: all 0.92s ease;
-
+    -moz-animation: appear linear;
+    -moz-animation-timeline:view() ;
+    -moz-animation-range: entry 0 cover 30%;
 }
 .sliders:hover{
     background: linear-gradient(rgba(54, 54, 54, 0.88) 84%,rgba(0, 0, 0, 0.452));

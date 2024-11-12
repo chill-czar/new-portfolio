@@ -57,7 +57,9 @@
 .skillCard:hover{
     transform: translate(8px,-8px);
     transition: transform 0.3s ease;
-
-
-
+    color: rgb(194, 194, 194);
+}
+.skillCard:active{
+    transform: translate(2px,-2px);
+    transition: transform 0.2s ease;
 }
