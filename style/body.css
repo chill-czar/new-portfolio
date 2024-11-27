@@ -24,6 +24,7 @@ body {
 
     height: 100vh;
     z-index: -1;
+    margin-bottom: 600px;
 }
 
 .arrowDown{
@@ -147,11 +148,9 @@ body {
     .heroChild ,.heroChild2{
         max-width: 520px;
     }
-    .arrowDown{
-        display: none;
-    }
+
 }
-@media screen and (max-width: 660px) {
+/* @media screen and (max-width: 660px) {
     .heroChild ,.heroChild2{
         max-width: 340px;
         font-size: 23px;
@@ -159,12 +158,10 @@ body {
     .heroChild2{
         font-size: 60px;
     }
-    .arrowDown{
-        display: none;
-    }
-}
 
-@media screen and (max-width: 460px) {
+} */
+
+@media screen and (max-width: 600px) {
     .main{
 
         height: auto;
@@ -182,6 +179,7 @@ body {
     .arrowDown{
         display: none;
     }
+
 }
 
 
