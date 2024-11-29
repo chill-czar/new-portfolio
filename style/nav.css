@@ -14,7 +14,7 @@ body{
 .nav{
     
     width: 80px;
-    height: 170px;
+    height: 200px;
     position: fixed;
     top: 30px;
   
@@ -25,7 +25,6 @@ body{
 .nav img,.navLower img{
     width: 24px;
     object-fit: cover;
-      
     opacity: 1;
     
 }

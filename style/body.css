@@ -24,7 +24,7 @@ body {
 
     height: 100vh;
     z-index: -1;
-    margin-bottom: 600px;
+    margin-bottom: 200px;
 }
 
 .arrowDown{
@@ -164,9 +164,9 @@ body {
 @media screen and (max-width: 600px) {
     .main{
 
-        height: auto;
+        height: 100vh;
         z-index: -1;
-    
+        margin-bottom:400px ;
     }
     
     .heroChild ,.heroChild2{

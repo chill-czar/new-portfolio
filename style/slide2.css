@@ -225,4 +225,20 @@
     #summary-box{
         height: 300px;
     }
+
+    .sliders{
+        /* background-color: rgba(54, 54, 54, 0.88); ,rgba(70, 70, 70, 0.88),rgba(70, 70, 70, 0.88)*/
+        background: linear-gradient(rgba(54, 54, 54, 0.88),rgba(54, 54, 54, 0.88));
+        background-color: rgba(54, 54, 54, 0.88);
+        z-index: 2;
+        border-radius: 40px;
+        
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 20%;
+        transition: all 0.92s ease;
+        -moz-animation: appear linear;
+        -moz-animation-timeline:view() ;
+        -moz-animation-range: entry 0 cover 10%;
+    }
 }
