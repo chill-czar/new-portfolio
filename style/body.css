@@ -35,7 +35,7 @@ body {
     height: 80px;
     filter: invert();
     position: absolute;
-    right: 0;
+    right: 20px;
     bottom: 0;
 }
 
@@ -179,7 +179,10 @@ body {
     .heroChild2{
         font-size: 60px;
     }
-    
+    .arrowDown{
+        display: none;
+    }
+
 }
 
 
