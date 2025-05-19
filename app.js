@@ -1,3 +1,12 @@
+// const counterURL = 'https://api.counterapi.dev/hit/shivamvashist.github.io/Portfolio/views';
+
+// fetch(counterURL)
+//   .then(res => res.json())
+//   .then(data => {
+//     document.getElementById('view-count').innerText = data.value;
+//   });
+
+
 // /$(window).on("load",function(){
 //     $(".loader-container").fadeOut("slow")
 // });
@@ -31,12 +40,17 @@ window.addEventListener("mousemove",function(e){
     const posX = e.clientX
     const posY = e.clientY
 
-    cursorDot.style.left=`${posX-15}px`;
-    cursorDot.style.top=`${posY-15}px`;
+    this.setTimeout(()=>{
+        cursorDot.style.left=`${posX-15}px`;
+        cursorDot.style.top=`${posY-15}px`;
+    },100)
+
+
 })
 
 
 window.addEventListener("mousedown", () => {
+    
     cursorDot.style.transform = "scale(0.5)";
     // cursorDot.style.backgroundColor="rgba(255,0,0,0.7)"
 });
