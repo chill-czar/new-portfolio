@@ -1,7 +1,8 @@
 
 .slide-2{
     
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -111,7 +112,7 @@
 
 }
 #block1{
-    max-width: 360px;
+    
 }
 .blockContainer{
     display: flex;
@@ -202,14 +203,32 @@
         height: 700px;
         transition: all 0.8s ease;
     }
+    
+
 }
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1024px) {
     .bento-box{
         width: 900px;
         height: 600px;
         transition: all 0.8s ease;
     }
+    .skillCard img{
+        margin-left: 80% ;
+        width: 34px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+
+
 @media screen and (max-width: 900px) {
     .bento-box{
         width: 750px;
@@ -223,7 +242,7 @@
     
     .bento-box{
         width: 400px;
-        height:1500px;
+        height:1800px;
         transition: all 0.8s ease;
         flex-direction: column;
         gap: 20px;
@@ -236,7 +255,7 @@
         display: flex;
     }
     #left-main{
-        height: 80%;
+        height: 50%;
         width: 90%;
     
         display: flex;
@@ -247,15 +266,16 @@
     #profile-box{
         justify-content: center;
         align-items: center;
+        height: 100%;
+        flex-direction: column;
     }
     #block1{
-        display: none;
+        min-width: 100%;
     }
     #pfp{
         background-color: rgba(240, 248, 255, 0);
         background: none;
-        width: 220px;
-        height:220px 
+        min-width: 280px;
 
     }
     .pfp-img{
@@ -271,7 +291,7 @@
     }
 
     .sliders{
-        /* background-color: rgba(54, 54, 54, 0.88); ,rgba(70, 70, 70, 0.88),rgba(70, 70, 70, 0.88)*/
+        /* background-color: rgba(54, 54, 54, 0.88); ,rgba(70, 70, 70, 0.88),rgba(70, 70, 70, 0.88) */
         background: linear-gradient(rgba(54, 54, 54, 0.88),rgba(54, 54, 54, 0.88));
         background-color: rgba(54, 54, 54, 0.88);
         z-index: 2;

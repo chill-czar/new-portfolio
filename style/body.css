@@ -5,19 +5,7 @@
     user-select: none;
     scroll-behavior: smooth;
   }
-  
-.views {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(0,0,0,0.6);
-    color: #fff;
-    padding: 8px 14px;
-    border-radius: 12px;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 14px;
-    z-index: 1000;
-}
+
   
 body {
     overflow-x: hidden;
@@ -47,8 +35,8 @@ body {
     height: 80px;
     filter: invert();
     position: absolute;
-    right: 40px;
-    bottom: 40px;
+    right: 0;
+    bottom: 0;
 }
 
 .hero{
@@ -191,10 +179,7 @@ body {
     .heroChild2{
         font-size: 60px;
     }
-    .arrowDown{
-        display: none;
-    }
-
+    
 }
 
 

@@ -18,7 +18,10 @@ body{
     height: 200px;
     position: fixed;
     top: 30px;
-  
+    backdrop-filter: blur(2px);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(95, 100, 105, 0.267);
     animation: NavIn ease-out 1.2s;
 
 }
@@ -31,7 +34,10 @@ body{
 }
 .nav img:hover{
     opacity: 0.65;
-    transition: opacity ease-in 0.11s;
+    scale: 1.16;
+    transform: translateY(-2px);
+    transition:all ease-in 0.11s;
+    cursor: pointer;
 }
 
 .navLower{

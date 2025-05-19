@@ -36,10 +36,33 @@
 </head>
 <body>
 
+    <div class="fixed top-8 right-8" style="z-index: 20;">
+        <a class="relative group " href="./assets/Shivam-cv.pdf" download="Shivam-cv.pdf">
+            <button class="relative group overflow-hidden px-4 py-3 
+            text-white font-semibold bg-gradient-to-b from-[#1a2be6]/40 to-[#ffffff]/10 
+            backdrop-blur-xl rounded-full flex hover:-translate-y-1 transition-all ease-in-out 100">
+                Download my CV&nbsp;&nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon download-icon">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg> 
+                <div class="bottom-20 group-hover:-bottom-96 -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#7d92cf] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+            </button>
+            
+            <!-- <div class="absolute -bottom-20 -left-4 scale-0 group-hover:scale-100 transition-all bg-gray-800 text-white text-xs rounded-md px-3 py-1 shadow-md">
+                Download my CV
+            </div> -->
+        </a>
+    </div>
+
     <video autoplay loop muted class="bg-vid" src="vids/videoplayback.mp4"></video>
     <div class="top1" id="top1"></div>
     <div class="nav" id="nav1">
-        <div class="navItem"><a href="mailto:shivamvashist2003@gmail.com"><img src="Icons /white email.png"></a></div>
+        <div class="navItem "><a href="mailto:shivamvashist2003@gmail.com"><img src="Icons /white email.png"></a></div>
         <div class="navItem"><a href="https://www.linkedin.com/in/shivamvashist/"><img src="Icons /white linked 2.png"></a></div>
         <div class="navItem">
             
@@ -48,6 +71,7 @@
             </a>
         </div>
         <div class="navItem"><a href="https://x.com/ninja_vashist"><img src="Icons /twitter.svg"></a></div>
+        
         
         
     </div>
@@ -61,8 +85,14 @@
             </div>
     
         </div>
-        <div class="arrowDown">
-            <button style="all: unset;" onClick="scrollToSection(slide2)"><img class="arrowDownImg" style="width:80px ;object-fit: contain;" src="Icons /arrow/arrow animated.gif"></button>
+        <div class="arrowDown scale-[300%]">
+            <button class="cursor-pointer animate-bounce"  onClick="scrollToSection(slide2)">
+                <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+           </button>
         </div>
     </div>
     
@@ -80,19 +110,37 @@
                     </div>
                 </div>
                 <div id="profile-box">
-                    <div class="sliders" id="block1">
-                        <div class="blockContainer">
-                            <div style="display: flex; flex-direction: column; gap:14px;justify-content: center;align-items: center;border-radius: 100px;">
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button> <button class="cvBtn"></button></div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button><button class="cvBtn"></button><button class="cvBtn"></button> </div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button><button class="cvBtn"></button><button class="cvBtn"></button> <button class="cvBtn"></button></div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button> <a style="display: flex;justify-content: center;align-items: center;" href="./assets/Shivam-cv.pdf" download="Shivam-cv.pdf"><button class="cvBtn1">CV</button></a> <button class="cvBtn"></button></div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button><button class="cvBtn"></button><button class="cvBtn"></button> <button class="cvBtn"></button> </div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button><button class="cvBtn"></button><button class="cvBtn"></button> </div>
-                                <div style="display: flex; gap:10px;"><button class="cvBtn"></button> <button class="cvBtn"></button></div>
-                            </div>
+
+                    <div id="block1" class="sliders overflow-hidden max-w-[360px] rounded-[40px] p-4 text-white flex flex-col justify-between gap-4">
+                        
+                        <div class="text-xl font-semibold text-center tracking-wide">
+                          🚧 Currently Building
+                        </div>
+                      
+                        
+                        <div class="flex flex-col gap-3 ">
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">🧠 ProofX</div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">AI + Blockchain to verify real-time facts</div>
+                          </div>
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">📦 KeepIt</div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">Personal knowledge stash + sharable backpack</div>
+                          </div>
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">⚡ Reaction Game</div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">Framer Motion + reflex tracker mini-game</div>
+                          </div>
+                        </div>
+                      
+                        
+                        <div class="flex justify-between items-center text-xs text-gray-400 pt-2 border-t border-zinc-700 xl:mt-2">
+                          <div>🚀 16+ Projects</div>
+                          <div>💼 Freelancing</div>
+                          <div>🎯 Build in Public</div>
                         </div>
                     </div>
+                      
                     <div class="sliders" id="pfp">
                         <img src="assets/shivam.jpeg" class="pfp-img">
                     </div>
@@ -116,6 +164,15 @@
                             <img src="https://skillicons.dev/icons?i=js" >
                         </div>
                         <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=next" >
+                        </div>
+                        <span>Next.js</span>
                     </div>
                 </div>
 
@@ -228,7 +285,7 @@
 
                     <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
                     bg-gradient-to-t ease-in-out group-hover:opacity-100 
-                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
                     duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
                     <img class="project-img" src="./assets/chain1.png" />
                     <div class="btn-container">
@@ -253,7 +310,7 @@
 
                     <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
                     bg-gradient-to-t ease-in-out group-hover:opacity-100 
-                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
                     duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
 
 
@@ -280,7 +337,7 @@
 
                     <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
                     bg-gradient-to-t ease-in-out group-hover:opacity-100 
-                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
                     duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
 
 
@@ -307,7 +364,7 @@
 
                     <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
                     bg-gradient-to-t ease-in-out group-hover:opacity-100 
-                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
                     duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
 
 

@@ -126,6 +126,6 @@ document.querySelectorAll(".particleCanvas").forEach((canvas) => {
       requestAnimationFrame(animate);
     }
   
-    initParticles(100);
+    initParticles(60);
     animate();
   });
