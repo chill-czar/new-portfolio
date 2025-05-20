@@ -87,7 +87,7 @@ document.querySelectorAll(".particleCanvas").forEach((canvas) => {
       constructor() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.radius = Math.random() * 1.2 + 0.5;
+        this.radius = Math.random() * 2 + 0.5;
         this.speedX = Math.random() * 0.3 - 0.15;
         this.speedY = Math.random() * 0.3 - 0.15;
       }
@@ -126,6 +126,6 @@ document.querySelectorAll(".particleCanvas").forEach((canvas) => {
       requestAnimationFrame(animate);
     }
   
-    initParticles(60);
+    initParticles(50);
     animate();
   });
