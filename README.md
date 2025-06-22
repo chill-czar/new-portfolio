@@ -1,7 +1,7 @@
 # 🧑‍💻 Shivam Vashist – Developer Portfolio
 
 Welcome to my personal developer portfolio website!  
-This project is proudly built using **raw HTML, CSS, and JavaScript** — with **no frameworks or libraries** — to demonstrate a strong foundation in core web technologies.
+This project is proudly built using **raw HTML & CSS** — with **no frameworks or libraries** — to demonstrate a strong foundation in core web technologies.
 
 🌐 **Live Preview:**  
 [shivamvashist.github.io/Portfolio](https://shivamvashist.github.io/Portfolio/)
